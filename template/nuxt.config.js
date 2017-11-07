@@ -1,3 +1,6 @@
+const path = require('path');
+const autoprefixer = require('autoprefixer');
+
 module.exports = {
   /*
   ** Headers of the page
@@ -18,6 +21,16 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   /*
+  ** Sass global variables / mixins
+  */
+  modules: [
+    'nuxt-sass-resources-loader',
+  ],
+  sassResources: [
+    path.resolve(__dirname, 'assets/sass/common/variables.sass'),
+    path.resolve(__dirname, 'assets/sass/common/mixins.sass'),
+  ],
+  /*
   ** Build configuration
   */
   build: {
@@ -33,6 +46,9 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    postcss: [
+      autoprefixer(),
+    ],
   }
-}
+};

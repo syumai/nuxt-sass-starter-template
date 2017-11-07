@@ -1,8 +1,6 @@
-# Starter
+# Nuxt Sass Starter Template
 
-A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.
-
-Live demo: https://starter.nuxtjs.org
+A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template with Sass and Pug.
 
 ## Installation
 
@@ -16,6 +14,14 @@ $ npm install # Or yarn install
 ```
 
 > Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
+
+## Included features
+
+* Sass
+  - with global variables, mixins
+* Pug
+* autoprefixer (Post CSS)
+* eslint-config-airbnb-base (AirBnB config without React)
 
 ## Usage
 
