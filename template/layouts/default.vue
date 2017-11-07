@@ -1,11 +1,11 @@
-<template>
-  <div>
-    <nuxt/>
-  </div>
+<template lang="pug">
+  div
+    nuxt
 </template>
 
 <style lang="sass">
-+bg-gradient($primary-color, #fff)
+  body
+    +bg-gradient(#fff, $primary-color)
 </style>
 
 <style>
