@@ -2,11 +2,11 @@
   section.container
     div
       logo
-        h1.title {{ name }}
-        h2.subtitle {{ description }}
-        .links
-          a.button--green(href='https://nuxtjs.org/', target='_blank') Documentation
-          a.button--grey(href='https://github.com/nuxt/nuxt.js', target='_blank') GitHub
+      h1.title {{ name }}
+      h2.subtitle {{ description }}
+      .links
+        a.button--green(href='https://nuxtjs.org/', target='_blank') Documentation
+        a.button--grey(href='https://github.com/nuxt/nuxt.js', target='_blank') GitHub
 </template>
 
 <script>
