@@ -7,7 +7,7 @@ A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template with Sass 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-$ vue init nuxt-community/starter-template my-project  
+$ vue init syumai/nuxt-sass-starter-template my-project  
 $ cd my-project                     
 # install dependencies
 $ npm install # Or yarn install
@@ -17,11 +17,11 @@ $ npm install # Or yarn install
 
 ## Included features
 
-* Sass
+* [Sass](http://sass-lang.com/)
   - with global variables, mixins
-* Pug
-* autoprefixer (Post CSS)
-* eslint-config-airbnb-base (AirBnB config without React)
+* [Pug](https://pugjs.org/)
+* [autoprefixer](https://github.com/postcss/autoprefixer) (Post CSS)
+* [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) (Airbnb config without React)
 
 ## Usage
 
